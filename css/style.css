@@ -47,37 +47,51 @@ button{
     border-radius: 8px;
     margin-bottom: 20px;
 }
-.card-body{
-    /* display: flex; */
-    flex-direction: row;
-    align-items: flex-end;
-    /* padding-left: 20px; */
+.img_wrap .chart {
+    padding-top: 30px;
 }
-.img_wrap{
-    padding-left: 25px;
+.img_wrap .fa-ellipsis-v {
+    margin-top: -100px !important;
+    margin-left: 130px !important;
 }
 .card h3{
     padding-top: 10px; 
     font-weight: 600;
 }
-.toggler:focus{
-    /* background-color: #344054; */
+.chart{
+    width: 100px;
+    margin-left: 30px;
 }
-/* .content_1{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-} */
-.actions{
-    /* margin-left: 575px; */
 }
-@media (min-width:768px) {
-    /* .second_nav{
-        display: block;
-    } */
+
+
+@media (max-width:768px) {
+   .card-body p{
+       font-size: 8px !important;
+   }
 }
-@media (min-width:768px) {
-    .actions{
-        /* margin-left: 600px;  */
+@media (max-width:768px) {
+    .card p{
+        font-size: 11px !important;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .card-body p{
+        font-size: 9px !important;
+    }
+    .img_wrap .fa-ellipsis-v{
+        margin-left:!important;
+        position:relative;
+        right:20px;
+    }
+    .chart{
+        width: 90px;
+        margin-top: 30px !important;
+        
+    }
+    .icon{
+        position: relative;
+        right: 20px !important;
+        /* padding: 0 !important; */
     }
 }
