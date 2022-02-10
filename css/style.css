@@ -47,6 +47,15 @@ button{
     border-radius: 8px;
     margin-bottom: 20px;
 }
+.card-body{
+    /* display: flex; */
+    flex-direction: row;
+    align-items: flex-end;
+    /* padding-left: 20px; */
+}
+.img_wrap{
+    padding-left: 25px;
+}
 .card h3{
     padding-top: 10px; 
     font-weight: 600;
