@@ -124,7 +124,14 @@ th{
    color: #667085;
 }
 .icons{
-    padding-left: 20px !important;
+    padding-left: 25px !important;
+    position: relative;
+    left: 5px;
+}
+.icon2{
+    padding-left: 40px!important;
+    position: relative;
+    left: 5px;
 }
 /* .progress{
     margin-top: 20px !important;
@@ -138,6 +145,18 @@ th{
 @media (max-width:768px) {
    .card-body p{
        font-size: 8px !important;
+   }
+   .icon{
+       width: 100px;
+       height: 50px;
+   }
+   .icon2{
+       width: 100px;
+       height: 50px;
+   }
+   .icons{
+       width:100px;
+       height: 50px;
    }
 }
 @media (max-width:768px) {
