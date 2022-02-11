@@ -92,6 +92,7 @@ button{
     border: none;
     margin-top: 3px;
     font-weight: 500;
+    box-shadow: none !important;
 
 }
 .table{
@@ -152,6 +153,16 @@ th{
     padding-bottom: 10px;
 
 }
+.cage{
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+.bin{
+    padding-right: 15px;
+
+}
+
+
 /* .progress{
     margin-top: 20px !important;
     width:
@@ -177,21 +188,28 @@ th{
        width:100px;
        height: 50px;
    }
-   .button{
+   .button2{
        display: none !important;
    }
+   .cage{
+       font-size: 10px;
+   }
+   hr{
+    /* width: 250px; */
+    /* margin-left: 40px; */
+}
 }
 @media (max-width:768px) {
     .card p{
         font-size: 11px !important;
     }
 }
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px){
     .card-body p{
         font-size: 9px !important;
     }
     .img_wrap .fa-ellipsis-v{
-        margin-left:!important;
+        
         position:relative;
         right:20px;
     }
@@ -204,6 +222,9 @@ th{
         position: relative;
         right: 20px !important;
         /* padding: 0 !important; */
+    }
+    .page1{
+        margin-left: auto;
     }
 }
 @media (max-width:425px) {
